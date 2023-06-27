@@ -13,7 +13,8 @@ header h1{
 
 header nav{
     width: 50%;
-    background-color: white;
+    background-color: #d9cdb9;
+    color: #CD5C5C;
 }
 
 nav ul{
@@ -25,7 +26,7 @@ nav ul{
 }
 
 figure{
-    background-image: url(https://cdn.dribbble.com/users/1583884/screenshots/17868785/media/72ca2231815dd77e808e794d031e0ede.jpg);
+    background-image: url(https://cdn.pixabay.com/photo/2018/04/02/17/17/beach-3284446_1280.jpg);
     background-repeat: no-repeat;
     background-size: cover;
     height: 200px;
@@ -35,7 +36,10 @@ figure{
 .leftside{
     display:flex;
     flex-wrap: wrap;
-    font-size: 90px;
+    font-size: 70px;
+    font-family: 'Courier New', Courier, monospace;
+    background-color: #d9cdb9;
+    color: #CD5C5C;
 }
 
 .title{
@@ -61,29 +65,43 @@ img{
     width:100%;
 }
 
+.image{
+    position: relative;
+}
+
+.image h3{
+    position: absolute;
+    z-index: 1;
+    bottom: 20%;
+    font-size: 125px;
+    font-family: 'Courier New', Courier, monospace ;
+    color: white;
+
+}
 .card{
     width: 40%;
-}
-/*
-#image1{
-    max-width: 100%;
-    height:auto
+    position: relative;
 }
 
-#image2{
-    margin-left: 28%;
+.card h3{
+    position: absolute;
+    z-index: 1;
+    bottom: 80%;
+    font-size: 30px;
+    font-family: 'Courier New', Courier, monospace ;
+    color: white
 }
-
-#image3{
-    margin-left: 62.7%;
-}
-*/
 
 h2{
   width: 25%;
+  margin-right: 1%;
   font-size: 50px;
+  background-color: #d9cdb9;
+  color: #CD5C5C;
 }
 
 footer nav{
-    width: 60%;
+    width: 70%;
+    background-color: #d9cdb9;
+    color: #CD5C5C;
 }
