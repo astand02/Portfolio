@@ -1,0 +1,89 @@
+header{
+    font-family: 'Courier New', Courier, monospace;
+    display:flex;
+    flex-wrap: wrap;
+}
+
+header h1{
+    width: 50%;
+    font-size: 75px;
+    background-color: #d9cdb9;
+    color: #CD5C5C;
+}
+
+header nav{
+    width: 50%;
+    background-color: white;
+}
+
+nav ul{
+    display:flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    list-style: none;
+    font-size: 30px;
+}
+
+figure{
+    background-image: url(https://cdn.dribbble.com/users/1583884/screenshots/17868785/media/72ca2231815dd77e808e794d031e0ede.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 200px;
+    width: 100%;
+}
+
+.leftside{
+    display:flex;
+    flex-wrap: wrap;
+    font-size: 90px;
+}
+
+.title{
+    width: 20%;
+    margin-right: 1%;
+    margin-bottom: 10%;
+}
+
+.container{
+    width: 75%;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+
+p{
+    white-space: pre-wrap;
+    font-size: 50%;
+
+}
+
+img{
+    width:100%;
+}
+
+.card{
+    width: 40%;
+}
+/*
+#image1{
+    max-width: 100%;
+    height:auto
+}
+
+#image2{
+    margin-left: 28%;
+}
+
+#image3{
+    margin-left: 62.7%;
+}
+*/
+
+h2{
+  width: 25%;
+  font-size: 50px;
+}
+
+footer nav{
+    width: 60%;
+}
