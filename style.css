@@ -1,5 +1,5 @@
 header{
-    font-family: 'Courier New', Courier, monospace;
+    font-family: 'Spectral SC', serif;
     display:flex;
     flex-wrap: wrap;
 }
@@ -37,7 +37,7 @@ figure{
     display:flex;
     flex-wrap: wrap;
     font-size: 70px;
-    font-family: 'Courier New', Courier, monospace;
+    font-family: 'Spectral SC', serif;
     background-color: #d9cdb9;
     color: #CD5C5C;
 }
@@ -61,6 +61,21 @@ p{
 
 }
 
+.pjtTitle {
+    color: white;
+    font-size: 40px;
+  
+}
+a:link, a:visited {
+    color: white;
+    padding: 15px 25px;
+    display: inline-block;
+  }
+  
+  a:hover, a:active {
+    background-color: #CD5C5C;
+  }
+
 img{
     width:100%;
 }
@@ -69,26 +84,14 @@ img{
     position: relative;
 }
 
-.image h3{
-    position: absolute;
-    z-index: 1;
-    bottom: 20%;
-    font-size: 125px;
-    font-family: 'Courier New', Courier, monospace ;
-    color: white;
-
-}
 .card{
     width: 40%;
     position: relative;
 }
 
 .card h3{
-    position: absolute;
-    z-index: 1;
-    bottom: 80%;
     font-size: 30px;
-    font-family: 'Courier New', Courier, monospace ;
+    font-family: 'Spectral SC', serif;
     color: white
 }
 
