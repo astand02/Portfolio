@@ -36,7 +36,7 @@ figure{
 .leftside{
     display:flex;
     flex-wrap: wrap;
-    font-size: 70px;
+    font-size: 50px;
     font-family: 'Spectral SC', serif;
     background-color: #d9cdb9;
     color: #CD5C5C;
@@ -61,9 +61,15 @@ p{
 
 }
 
+.pjt1{
+    color: white;
+    font-size: 40px;
+}
+
 .pjtTitle {
     color: white;
     font-size: 40px;
+    margin-left: 30%;
   
 }
 a:link, a:visited {
@@ -81,7 +87,7 @@ img{
 }
 
 .image{
-    position: relative;
+    margin-left: 30%;
 }
 
 .card{
@@ -103,6 +109,9 @@ h2{
   color: #CD5C5C;
 }
 
+.footer{
+    margin-bottom: 0%;
+}
 footer nav{
     width: 70%;
     background-color: #d9cdb9;
