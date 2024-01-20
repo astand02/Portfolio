@@ -1,3 +1,6 @@
+body{
+    background-color: #E9DCC9;
+}
 header{
     font-family: 'Spectral SC', serif;
     display:flex;
@@ -5,16 +8,16 @@ header{
 }
 
 header h1{
-    width: 50%;
-    font-size: 75px;
-    background-color: #d9cdb9;
-    color: #CD5C5C;
+    font-family: 'Spectral SC', serif;
+    width: 45%;
+    margin-left: 2%;
+    margin-top: 1%;
+    font-size: 25px;
+    color:#4A0404;
 }
 
 header nav{
-    width: 50%;
-    background-color: #d9cdb9;
-    color: #CD5C5C;
+    width: 53%;
 }
 
 nav ul{
@@ -22,24 +25,39 @@ nav ul{
     flex-direction: row;
     justify-content: space-evenly;
     list-style: none;
-    font-size: 30px;
+    font-size: 20px;
+}
+
+figure h1{
+    font-family: 'Dancing Script', cursive;
+    text-align: center;
+    font-size: 105px;;
+    color:#483C32;
 }
 
 figure{
-    background-image: url(https://cdn.pixabay.com/photo/2018/04/02/17/17/beach-3284446_1280.jpg);
+    background-image: url(https://i.etsystatic.com/27463498/r/il/7689b8/3191301581/il_1588xN.3191301581_e0ou.jpg);
     background-repeat: no-repeat;
     background-size: cover;
-    height: 200px;
+    height: 100px;
     width: 100%;
 }
 
 .leftside{
     display:flex;
     flex-wrap: wrap;
-    font-size: 50px;
+    font-size: 60px;
     font-family: 'Spectral SC', serif;
-    background-color: #d9cdb9;
-    color: #CD5C5C;
+    background-color: #E9DCC9;
+    color: #483C32;
+    margin-top: 40px;
+    border-bottom: #483C32;
+    border-style: double;
+    border-top: none;
+    border-left: none;
+    border-right: none;
+
+
 }
 
 .title{
@@ -62,24 +80,27 @@ p{
 }
 
 .pjt1{
-    color: white;
+    color:#967969;
     font-size: 40px;
 }
 
 .pjtTitle {
-    color: white;
+    color: #967969;
     font-size: 40px;
     margin-left: 30%;
+    margin-right: -30%;
   
 }
 a:link, a:visited {
-    color: white;
+    color: #967969;
     padding: 15px 25px;
     display: inline-block;
   }
   
   a:hover, a:active {
-    background-color: #CD5C5C;
+    background-color: #F9F6EE;
+    border: 1px solid #F9F6EE;
+    border-radius: 100px;
   }
 
 img{
@@ -87,7 +108,8 @@ img{
 }
 
 .image{
-    margin-left: 30%;
+    margin-left: 29%;
+    margin-right: -28%;
 }
 
 .card{
@@ -96,24 +118,35 @@ img{
 }
 
 .card h3{
-    font-size: 30px;
     font-family: 'Spectral SC', serif;
-    color: white
 }
 
 h2{
   width: 25%;
   margin-right: 1%;
   font-size: 50px;
-  background-color: #d9cdb9;
-  color: #CD5C5C;
+  background-color: #E9DCC9;
+  color: #967969;
 }
 
-.footer{
-    margin-bottom: 0%;
+h3{
+    color:#6F4E37;
+    font-size: 30px;
 }
+
 footer nav{
-    width: 70%;
-    background-color: #d9cdb9;
-    color: #CD5C5C;
+    display:flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    font-size: 20px;
+    width: 77%;
+    color: #967969;
+}
+
+h4{
+    font-size: 25px
+}
+
+h5{
+    font-size: 25px;
 }
